@@ -1,0 +1,146 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat-SemiBold.ttf)
+}
+
+/* Background Image */
+body {
+    height: 100%;
+    background: url(../pictures/bgimage.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+/* Header Styles */
+#banner {
+    background: url(../pictures/banner.jpg) center no-repeat;
+    background-size: cover;
+    /* img from: https://tinyurl.com/y5w4xgj4 */
+}
+
+header h1 {
+    font-family: "Montserrat";
+    margin-bottom: 30px;
+    padding-top: 30px;
+    text-shadow: 2px 2px 7px black;
+}
+
+nav li a {
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 7px 7px 0px 0px;
+    text-align: center;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+
+nav li a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    font-size: 21.5px;
+}
+
+nav li a:visited {
+    color: purple;
+}
+
+input:invalid:focus {
+    border: 3px solid red;
+}
+
+input:valid:focus {
+    border: 3px solid rgb(87, 190, 22);
+}
+
+/* Card Styles */
+#intro::first-line {
+    font-variant: small-caps;
+    font-size: 1.5em;
+    letter-spacing: 1.5px;
+    color: black;
+    font-weight: 500;
+}
+
+.card.mx-auto.text-light {
+    height: 100%;
+    background-color: rgba(135, 207, 235, 0.445);
+}
+
+.card-title.mb-0 h2 {
+    font-family: "Montserrat";
+    padding: 50px 10px;
+    color: skyblue;
+    border: 2px blueviolet;
+}
+
+p.col-md-6.float-left {
+    font-size: 1.15em;
+}
+
+.card hr {
+    border-top: 2px white solid;
+    width: 80%;
+}
+
+/* Mid-Body */
+#consultUs {
+    font-family: "Montserrat";
+    color: rgba(0, 0, 250, 0.699);
+}
+
+#consult p {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-family: "Montserrat";
+}
+
+/* End of Card Styles */
+#final {
+    font-size: 1.2em;
+}
+
+/* Footer Styles */
+footer {
+    font-size: 1.1em;
+    border-radius: 0px 0px 7px 7px;
+}
+
+#socialMedia {
+    background-color: rgba(1, 80, 80, 0.8);
+}
+
+#socialMedia a i {
+    border-radius: 50%;
+    font-size: 30px;
+    color: #ffffff !important;
+    display: inline-block;
+    line-height: 54px;
+    text-align: center;
+    text-decoration: none;
+    width: 54px;
+}
+
+#facebook {
+    background-color: #3b5998;
+}
+
+#facebook:hover {
+    background-color: #4c70ba;
+}
+
+#instagram {
+    background-color: #3f729b;
+}
+
+#instagram:hover {
+    background-color: #548cb9;
+}
+
+#twitter {
+    background-color: #55acee;
+}
+
+#twitter:hover {
+    background-color: #83c3f3;
+}

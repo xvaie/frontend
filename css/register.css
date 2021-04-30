@@ -1,0 +1,122 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat-SemiBold.ttf)
+}
+
+/* background image */
+body {
+    height: 100%;
+    background: url(../pictures/bgimage.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+/* Default Styles */
+h2, h3, h4, h5, legend {
+    font-family: "Montserrat";
+}
+
+p {
+    font-size: 1.2em;
+}
+
+/* Header Styles */
+#banner {
+    background: linear-gradient(to bottom, #66a6ffe0 0%, #89f6fee0 100%);
+}
+
+header h1, header h4 {
+    margin-bottom: 30px;
+    padding-top: 30px;
+    color: orange;
+    text-shadow: 2px 2px 7px black;
+}
+
+header h4 {
+    letter-spacing: 1px;
+    font-variant: small-caps;
+}
+
+nav li a {
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 7px 7px 0px 0px;
+    text-align: center;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+
+nav li a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    font-size: 21.5px;
+}
+
+nav li a:visited {
+    color: purple;
+}
+
+#mainBody {
+    background-image: linear-gradient(to top, #f3e7e9e0 0%, #e3eeffe0 99%, #e3eeffe0 100%);
+}
+
+/* Form Styles */
+legend {
+    font-variant: small-caps;
+}
+
+input:invalid:focus {
+    border: 3px solid red;
+}
+
+input:valid:focus {
+    border: 3px solid rgb(87, 190, 22);
+}
+
+#forPro, #forStandard {
+    display: none;
+}
+
+/* Footer Styles */
+footer {
+    font-size: 1.1em;
+    border-radius: 0px 0px 7px 7px;
+}
+
+#socialMedia {
+    background-color: rgba(1, 80, 80, 0.8);
+}
+
+#socialMedia a i {
+    border-radius: 50%;
+    font-size: 30px;
+    color: #ffffff !important;
+    display: inline-block;
+    line-height: 54px;
+    text-align: center;
+    text-decoration: none;
+    width: 54px;
+}
+
+#facebook {
+    background-color: #3b5998;
+}
+
+#facebook:hover {
+    background-color: #4c70ba;
+}
+
+#instagram {
+    background-color: #3f729b;
+}
+
+#instagram:hover {
+    background-color: #548cb9;
+}
+
+#twitter {
+    background-color: #55acee;
+}
+
+#twitter:hover {
+    background-color: #83c3f3;
+}
