@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Xvton's AI Consultancy & Training</title>
+        <meta name="keywords" content="AI for business, AI, machine learning, AI for fun" />
+        <link href="../css/index.css" rel="stylesheet" type="text/css" />
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/6a13198bc6.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="../javascript/greetings@home.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <div class="container img-fluid" id="banner">
+                <div class="d-flex px-3 py-2 justify-content-end">
+                    <sub class="text-light">Already have an account?</sub>
+                </div>
+                <form>
+                    <div class="form-row d-md-flex p-3 justify-content-end">
+                        <div class="col-4 col-md-2">
+                            <input type="email" name="username" class="form-control form-control-sm" placeholder="Email" id="topEmail" required />
+                        </div>
+                        <div class="col-4 col-md-2">
+                            <input type="password" name="password" id="topPassword" class="form-control form-control-sm" placeholder="Password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$" required />
+                        </div>
+                        <button type="submit" class="btn btn-secondary btn-sm" id="topSubmit">Login</button>
+                    </div>
+                </form>
+                <h1 class="font-weight-bold text-center text-light p-2">Xvton's AI Consultancy & Training</h1>
+                <nav class="navbar navbar-expand-md pb-0">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobileMenu">
+                        <span class="navbar-toggle-icon">
+                            <i class="fas fa-bars text-light"></i>
+                        </span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="mobileMenu">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="aboutUs.html" class="nav-link">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="educate.html" class="nav-link">Educate</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="caseStudies.html" class="nav-link">Case Studies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="register.html" class="nav-link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="card mx-auto text-light col-lg-9">
+            <div class="card-title mb-0">
+                <h2 class="text-center mb-0 text-warning"><em>The Number 1 Solution To Your Business Analytics</em></h2>
+            </div>
+            <div class="card-body">
+                <p class="col-md-6 float-left pt-4" id="intro">
+                    <span id="greetings"></span>
+                    <br />
+                    <br />
+                    We provide Artificial Intelligence software for your business needs. 
+                    Whether is it to analyse your data or to predict your sales, we have it covered.
+                    <br>
+                    <br>
+                    We also believe in advocating the uses of AI and inspiring those curious about what AI 
+                    can do through training.
+                    <br>
+                    <br>
+                    Together, we can make a more advanced future in your business, as well as, back at home.  
+                </p>
+                <img class="img-fluid col-md-6" src="../pictures/ai stuff.jpg"/>
+                <!--picture source: https://tinyurl.com/ydglg85y -->
+            </div>
+            <hr class="mx-auto">
+            <div class="container" id="consult">
+                <img class="img-fluid mx-auto d-block mt-4" src="../pictures/message.png" width="15%"/>
+                <h2 class="clear-both text-center pt-3 font-weight-bold" id="consultUs"><em>Let Us Know What You Need</em></h2>
+                <p class="mx-auto col-lg-9 mb-5 text-center">
+                    At Xvton, we are determined to solve all your problems. Let us know what we can help you with,
+                    and we will recommend and assist you with the software we have.
+                </p>
+                <h3 class="text-center pb-4"><u>What Our Software Offers</u></h3>
+                <div class="container col-lg-4 float-left">
+                    <img class="img-fluid pb-4" src="../pictures/machinelearning.png" />
+                    <!-- img src: https://miro.medium.com/max/875/1*_Z3OcjDgETENv-m2wVNZsA.png -->
+                    <h5 class="text-center text-dark font-weight-bold">Analyse</h5>
+                    <p class="text-justify">
+                        Let us give a detailed report of your business.
+                        For example, by giving us accurate data from recent years, our software will be able
+                        to point out periods in time where business was better or worse.
+                    </p>
+                </div>
+                <div class="container col-lg-4 float-left">
+                    <img class="img-fluid pb-4" src="../pictures/projectionwithAI.png" />
+                    <h5 class="text-center text-dark font-weight-bold">Predict</h5>
+                    <p class="text-justify">
+                        With data given from a span of a few years, we can run the software
+                        to give a prediction of the growth of your business for the next 3 to 5 years.
+                    </p>
+                </div>
+                <div class="container col-lg-4 float-left">
+                    <img class="img-fluid pt-5 pb-4" id="dogsOrCats" src="../pictures/Screenshot (137).png" />
+                    <!-- img from: https://miro.medium.com/max/3200/1*R-ItxBW2SWarITBKe7HZuA.gif -->
+                    <h5 class="text-center text-dark font-weight-bold pt-4">Learn</h5>
+                    <p class="text-justify">
+                        Learn about machine learning with templates given.
+                        For example, the PicLearning tool scans through images that you give
+                        and guesses what are in the picture. As it runs through,
+                        you will be able to see what goes on behind-the-scenes and understand
+                        that AI is <em>not magic.</em>
+                    </p>
+                </div>
+            </div>
+            <hr class="mx-auto">
+            <img src="../pictures/usergroup.png" class="img-fluid mx-auto" width="20%"/>
+            <h4 class="text-center">Think we can help?<br>Sign up now.</h4>
+            <p class="text-center col-lg-9 mx-auto" id="final">
+                Let our team of experts help you. All you need to do is to choose a plan.
+                Don't worry, you can also have a trial period to try out if our product suit
+                your needs. Cancel the plan any time.*
+            </p>
+            <sub class="text-right">*terms and conditions apply.</sub>
+            <br>
+            <a href="register.html" class="btn btn-primary mx-auto">Sign Up</a>
+            <br>
+        </div>
+    </body>
+    <div class="container pt-3 mx-auto text-center text-light" id="socialMedia">
+        <ul class="list-unstyled list-inline text-center m-0 pb-3">
+            <li class="list-inline-item" id="facebook">
+                <a class="btn-floating btn-fb mx-1" href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </li>
+            <li class="list-inline-item" id="twitter">
+                <a class="btn-floating btn-tw mx-1" href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="list-inline-item" id="instagram">
+                <a class="btn-floating btn-ig mx-1" href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+        <p class="m-0">For enquiries,</p>
+        <p class="m-0">Tel:<a href="tel:+6563726490"> +65 6372 6490</a></p>
+        <p class="pb-2 m-0">Email:<a href="mailto:xvtonenquiries@gmail.com"> xvtonenquiries@gmail.com</a></p>
+    </div>
+    <footer class= "container bg-dark text-center mx-auto text-light py-2 m-0">
+        &copy; Xvton Consultancy & Training 2020
+    </footer>
+</html>

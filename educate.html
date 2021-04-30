@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Xvton - Educate</title>
+        <meta name="keywords" content="AI for business, AI, machine learning, AI for fun" />
+        <link href="../css/educate.css" rel="stylesheet" type="text/css" />
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/6a13198bc6.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="../javascript/countdownTimer.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <div class="container img-fluid" id="banner">
+                <!--image from: https://kp.cdnkic.com/wp-content/uploads/2017/02/maths-banner-2.jpg -->
+                <div class="d-flex px-3 py-2 justify-content-end">
+                    <sub class="text-light">Already have an account?</sub>
+                </div>
+                <form>
+                    <div class="form-row d-md-flex p-3 justify-content-end">
+                        <div class="col-4 col-md-2">
+                            <input type="email" name="username" class="form-control form-control-sm" placeholder="Email" id="topEmail" required />
+                        </div>
+                        <div class="col-4 col-md-2">
+                            <input type="password" name="password" id="topPassword" class="form-control form-control-sm" placeholder="Password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$" required />
+                        </div>
+                        <button type="submit" class="btn btn-secondary btn-sm" id="topSubmit">Login</button>
+                    </div>
+                </form>
+                <h1 class="font-weight-bold text-center mb-2 p-2">Education @ Xvton</h1>
+                <h3 class="font-weight-bold text-center pt-1 mb-3">Fusing Artificial Intelligence into Education</h3>
+                <nav class="navbar navbar-expand-md pb-0">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobileMenu">
+                        <span class="navbar-toggle-icon">
+                            <i class="fas fa-bars text-light"></i>
+                        </span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="mobileMenu">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="aboutUs.html" class="nav-link">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="educate.html" class="nav-link">Educate</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="caseStudies.html" class="nav-link">Case Studies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="register.html" class="nav-link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="container" id="mainBody">
+            <h3 class="text-light p-4">Impacts of Artificial Intelligence on Education</h3>
+            <p class="text-light pt-0 px-4 pb-4">
+                Living in the world of ours, where technology is so advanced, it is no doubt
+                that many children are interested in technology. Because of that, many schools have 
+                looked into making lessons more enjoyable by incorporating technology into them. 
+                Although teachers are irreplaceable due to artificial intelligence still lacking 
+                human skills, like emotions and wise decision making, they have already made their 
+                way into education systems worldwide.
+            </p>
+            <div class="card mx-auto">
+                <div class="card-title pt-4 px-3 text-center">
+                    <h4>Attention all students!</h4>
+                </div>
+                <div class="card-body pt-0 text-center">
+                    <p>
+                        Are you struggling with Math? Attend our online workshop, 
+                        where we will be showing you how to make interesting
+                        artificial intelligence models to help you with your Math homework! 
+                    </p>
+                    <p class="font-weight-bold">Date: 25-30 October 2020</p>
+                    <p class="font-weight-bold">Time: 2-5pm</p>
+                    <p>Hurry! Registration ends on <span class="text-primary">15 October</span>. Limited slots available.</p>
+                    <p id="countdownTimer" class="font-weight-bold"></p>
+                    <a href="#" class="btn btn-primary">Find Out More</a>
+                </div>
+            </div>
+            <ul class="text-light m-3">
+                <h4 class="py-4 text-center">Ways AI has impacted education</h4>
+                <!--reference from forbes: https://www.forbes.com/sites/bernardmarr/2018/07/25/how-is-ai-used-in-education-real-world-examples-of-today-and-a-peek-into-the-future/#7cc9719586e8 -->
+                <li class="m-3">
+                    <h5>Automated Admin Tasks for teachers</h5>
+                    <p class="pb-3">
+                        An educator spends a tremendous amount of time grading homework and tests. 
+                        However, AI can quickly do that, while at the same time offering recommendations for how to close the gaps in learning. 
+                        Although machines can already grade multiple-choice tests, they are very close to being able to assess written responses as well.
+                        This allows more time for teachers to spend with each student to coach them on thier doubts.
+                    </p>
+                </li>
+                <li class="m-3">
+                    <h5>Differentiated and Individualized learning</h5>
+                    <p class="pb-3">
+                        Adjusting learning based on an individual student’s particular needs has been a priority for educators for years, 
+                        but AI will allow a level of differentiation that teachers would not be able to reach. 
+                        There are several companies currently developing AI that can teach, test and feedback to students
+                        from pre-K to college level and gives them the challenges they are ready for. They
+                        identify gaps in knowledge and redirects to new topics when appropriate. As AI gets more advanced, 
+                        it might be possible for a machine to analyse a student's face that indicates they are struggling to grasp a subject 
+                        and will modify a lesson to respond to that.
+                    </p>
+                </li>
+            </ul>
+            <div class="row text-light pb-3">
+                <div class="col-md-6" id="AIPros">
+                    <h5 class="text-center"><u>Pros of AI</u></h5>
+                    <ul>
+                        <li>Chances of error is reduced when dealing with complicated data</li>
+                        <li>AI does not wear out and get tired easily</li>
+                        <li>We can let AI do repetitive jobs</li>
+                        <li>AI can be used in healthcare sectors around the world</li>
+                    </ul>
+                </div>
+                <div class="col-md-6" id="AICons">
+                    <h5 class="text-center"><u>Cons of AI</u></h5>
+                    <ul class="pt-4">
+                        <li>Lack of creativity and out of box learning</li>
+                        <li>No emotions (which can lead to bad decision making)</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="mx-auto">
+            <h4 class="text-success text-center py-3">Read More on Artificial Intelligence</h4>
+            <div id="articlesCarousel" class="carousel slide pb-3" data-ride="carousel">
+                <ol class="carousel-indicators text-dark">
+                    <li data-target="#articlesCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#articlesCarousel" data-slide-to="1"></li>
+                    <li data-target="#articlesCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="https://tinyurl.com/y5ns89v8" target="_blank">
+                            <img class="d-block w-100" src="../pictures/Screenshot (126).png" alt="First slide">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://tinyurl.com/ych9urza" target="_blank">
+                            <img class="d-block w-100" src="../pictures/Screenshot (127).png" alt="Second slide">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://tinyurl.com/vdqa5n2" target="_blank">
+                            <img class="d-block w-100" src="../pictures/Screenshot (128).png" alt="Third slide">
+                        </a>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#articlesCarousel" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#articlesCarousel" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <hr class="mx-auto">
+            <div class="container text-center pb-3">
+                <h3 class="text-warning p-3 mb-0">Therefore, at Xvton, we make sure we make full use of AI's strengths.</h3>
+                <p class="text-light">We promise that you will get the best deal and results for your business data and/or get the best learning experience with us.</p>
+                <a href="caseStudies.html" class="btn btn-info">How We Helped Some of Our Cients</a>
+            </div>
+        </div>
+    </body>
+    <div class="container pt-3 mx-auto text-center text-light" id="socialMedia">
+        <ul class="list-unstyled list-inline text-center m-0 pb-3">
+            <li class="list-inline-item" id="facebook">
+                <a class="btn-floating btn-fb mx-1" href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </li>
+            <li class="list-inline-item" id="twitter">
+                <a class="btn-floating btn-tw mx-1" href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="list-inline-item" id="instagram">
+                <a class="btn-floating btn-ig mx-1" href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+        <p class="m-0">For enquiries,</p>
+        <p class="m-0">Tel:<a href="tel:+6563726490"> +65 6372 6490</a></p>
+        <p class="pb-2 m-0">Email:<a href="mailto:xvtonenquiries@gmail.com"> xvtonenquiries@gmail.com</a></p>
+    </div>
+    <footer class= "container bg-dark text-center mx-auto text-light py-2 m-0">
+        &copy; Xvton Consultancy & Training 2020
+    </footer>
+</html>

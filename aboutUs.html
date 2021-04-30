@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Xvton - About Us</title>
+        <meta name="keywords" content="AI for business, AI, machine learning, AI for fun" />
+        <link href="../css/aboutUs.css" rel="stylesheet" type="text/css" />
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/6a13198bc6.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container img-fluid" id="banner">
+                <!--image from: https://www.inforcelife.com/wp-content/uploads/2017/03/about-us-banner.jpg -->
+                <div class="d-flex px-3 py-2 justify-content-end">
+                    <sub class="text-light">Already have an account?</sub>
+                </div>
+                <form>
+                    <div class="form-row d-md-flex p-3 justify-content-end">
+                        <div class="col-4 col-md-2">
+                            <input type="email" name="username" class="form-control form-control-sm" placeholder="Email" id="topEmail" required/>
+                        </div>
+                        <div class="col-4 col-md-2">
+                            <input type="password" name="password" id="topPassword" class="form-control form-control-sm" placeholder="Password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$" required />
+                        </div>
+                        <button type="submit" class="btn btn-secondary btn-sm" id="topSubmit">Login</button>
+                    </div>
+                </form>
+                <h1 class="font-weight-bold text-center text-warning p-2">About Us @ Xvton</h1>
+                <nav class="navbar navbar-expand-md pb-0">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobileMenu">
+                        <span class="navbar-toggle-icon">
+                            <i class="fas fa-bars text-dark"></i>
+                        </span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="mobileMenu">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="aboutUs.html" class="nav-link">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="educate.html" class="nav-link">Educate</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="caseStudies.html" class="nav-link">Case Studies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="register.html" class="nav-link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="container" id="mainBody">
+            <h2 class="py-4 px-3">A Bit of History...</h2>
+            <p class="text-justify px-4 pb-2">
+                Xvton started back in 2003 as a Singapore based startup company founded by Jarve Tan and Hans Lee.
+                The goal was simple back then &mdash; to help companies build their websites. With the rapid advancement
+                of technology, we converted to helping business with our very own artificial intelligence to mainly focus on analysing and projecting
+                their growth in 2012. We hope to move the world towards a more technologically advanced future by helping with other tedious tasks,
+                such as recommender systems and cybersecurity.
+            </p>
+            <h2 class="py-4 px-3">Now...</h2>
+            <div class="container text-center">
+                <h4 class="px-4 pb-2">We have over <span class="text-warning">500 customers</span> from all around the world</h4>
+                <img src="../pictures/map.png" class="img-fluid col-md-6 p-3" />
+                <!--img from: https://static01.nyt.com/newsgraphics/2019/04/01/carbon-pricing-new/e2313fd68ca6a12e055c2e23ceb7073d76331f89/map-Artboard-380.png -->
+                <h4 class="px-4 pb-2 pt-3"><span class="text-warning">Over 300 engineers</span> ready to work with your requests</h4>
+                <img src="../pictures/engineershaha.jpg" class="img-fluid col-md-6 mb-5 mt-3" />
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-center" id="award1">
+                    <h5 class="p-3">Rated as <span class="text-warning">Top 100 Most Reliable Tech Companies</span> since 2017</h5>
+                    <img src="../pictures/badge.jpg" class="img-fluid mx-auto mb-5" width="50%"/>
+                </div>
+                <div class="col-md-4 text-center" id="award2">
+                    <h5 class="p-3">Nominee for <span class="text-warning">Artificial Intelligence Excellence Award 2020</span></h5>
+                    <img src="../pictures/award2.png" class="img-fluid mx-auto mb-5" width="50%" />
+                </div>
+                <div class="col-md-4 text-center">
+                    <h5 class="p-3"><span class="text-warning">Computer AI & Machine Learning Awards 2020</span> Runner Up</h5>
+                    <img src="../pictures/award3.jpg" class="img-fluid mx-auto" width="80%" />
+                </div>
+            </div>
+            <h3 class="text-center pt-2 mt-4 text-warning">Reviews</h3>
+            <div class="row mt-2">
+                <div class="col-md-6 pt-3 pr-0">
+                    <blockquote class="blockquote p-4 text-justify" id="XtechReview">
+                        "Xvton has helped my company several times with my company's quarterly results and it has been accurate most of the times.
+                        This allows us to easily see if we are going in the right direction or not with our products.
+                        I would highly recommend anyone who wants to try it out."
+                        <footer class="blockquote-footer text-light">
+                            John Tan,
+                            <cite>
+                                Xtech
+                                <br>
+                                &nbsp;
+                                &nbsp;
+                                &nbsp;                              
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </cite>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-6 pt-3 pl-0">
+                    <blockquote class="blockquote p-4 text-justify">
+                        "This software is very easy to use and work with. 
+                        The UI for this application is amazing and we can easily create machine learning methods with the databases on the server. 
+                        The ease with with the models can be built is amazing. I would recommend this software to all the folks out there."
+                        <footer class="blockquote-footer text-light">
+                            Alex Toh,
+                            <cite>
+                                aBusinessCompany
+                                <br>
+                                &nbsp;
+                                &nbsp;
+                                &nbsp;                              
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </cite>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="row mt-2" id="bottomReviews">
+                <div class="col-md-6 pt-3 pr-0">
+                    <blockquote class="blockquote p-4 text-justify" id="johnDoe">
+                        "It was very enjoyable to play around with the machine learning templates given. It helped me understand
+                        that AI was simply super complicated math running in the background which produces amazing results for us.
+                        Thanks to Xvton, I am now even more interested in pursuing a future that is tech-related."
+                        <footer class="blockquote-footer text-light">
+                            John Doe,
+                            <cite>
+                                Student
+                                <br>
+                                &nbsp;
+                                &nbsp;
+                                &nbsp;                              
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </cite>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-6 pt-3 pl-0">
+                    <blockquote class="blockquote p-4 text-justify">
+                        "Although Xvton provides many types of AI to analyse data, it did not necessarily suit my needs.
+                        However, I can see that the goal of the company is solid and acheievable, considering that not
+                        only do they have many tools, their customer service is also excellent. I believe with more time,
+                        the company will be up there with the more popular companies."
+                        <footer class="blockquote-footer text-light">
+                            Alon Nusk,
+                            <cite>
+                                Self-Employed
+                                <br>
+                                &nbsp;
+                                &nbsp;
+                                &nbsp;                              
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                            </cite>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </body>
+    <div class="container pt-3 mx-auto text-center text-light" id="socialMedia">
+        <ul class="list-unstyled list-inline text-center m-0 pb-3">
+            <li class="list-inline-item" id="facebook">
+                <a class="btn-floating btn-fb mx-1" href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </li>
+            <li class="list-inline-item" id="twitter">
+                <a class="btn-floating btn-tw mx-1" href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="list-inline-item" id="instagram">
+                <a class="btn-floating btn-ig mx-1" href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+        <p class="m-0">For enquiries,</p>
+        <p class="m-0">Tel:<a href="tel:+6563726490"> +65 6372 6490</a></p>
+        <p class="pb-2 m-0">Email:<a href="mailto:xvtonenquiries@gmail.com"> xvtonenquiries@gmail.com</a></p>
+    </div>
+    <footer class= "container bg-dark text-center mx-auto text-light py-2 m-0">
+        &copy; Xvton Consultancy & Training 2020
+    </footer>
+</html>
