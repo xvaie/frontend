@@ -18,3 +18,5 @@ The third page (educate.html) focuses on the importance of AI in the future and 
 The fourth page (caseStudies.html) lists some case studies for those who are interested to see if the company's product matches their interests
 
 The fifth page (register.html) is a payment page for those who would like to purchase the machine learning product (split into the aforementioned 3 categories)
+
+Visit the mentioned pages here: https://github.com/xvaie/frontend
