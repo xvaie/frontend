@@ -19,4 +19,4 @@ The fourth page (caseStudies.html) lists some case studies for those who are int
 
 The fifth page (register.html) is a payment page for those who would like to purchase the machine learning product (split into the aforementioned 3 categories)
 
-Visit the mentioned pages here: https://github.com/xvaie/frontend
+Visit the mentioned pages here: https://xvaie.github.io/frontend/
