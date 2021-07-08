@@ -1,6 +1,6 @@
 var greetings = [
     'Hello', 'Ni Hao', 'Apa Khabar', '여보세요', 'こんにちは', 'Hola', 'Ciao', 'Olá', 'Namaste', 'Merhaba', 'Hej', 'Hei', 'Guten tag',
-    'Hallo', 'hyvää päivää', ''
+    'Hallo', 'hyvää päivää'
 ]
 
 var i = 0;
